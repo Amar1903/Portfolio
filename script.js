@@ -5,6 +5,6 @@ MenuBtn.addEventListener('click', function(e) {
 });
 function downloadCV() {
     // Replace the URL below with the link to your CV file (PDF or any other format)
-    const cvUrl = 'file:///C:/Users/Hi/Documents/Portfolio/Resume-Amar.pdf';
+    const cvUrl = 'resume.png';
     window.open(cvUrl, '_blank');
 }
