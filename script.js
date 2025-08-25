@@ -5,11 +5,12 @@ MenuBtn.addEventListener('click', function(e) {
 });
 function downloadCV(){
     // Replace the URL below with the link to your CV file (PDF or any other format)
-    const cvUrl = 'resume.png';
+    const cvUrl = 'AMARADEVI A - RESUME.pdf';
     window.open(cvUrl, '_blank');
 }
 function Alert() {
     alert("Your message has been successfully sent,Thankyou...!"
     );
     return true; // Allows the form to be submitted after the alert.
+
 }
